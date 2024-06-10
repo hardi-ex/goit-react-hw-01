@@ -1,0 +1,29 @@
+.transactionsTable {
+  width: 100%;
+  text-align: center;
+  border: 2px solid rgb(44, 44, 53);
+  border-collapse: collapse;
+}
+
+.transactionsTable thead {
+  background-color: rgb(44, 44, 53);
+  color: lightyellow;
+}
+
+.transactionsTable th,
+.transactionsTable td {
+  border: 1px solid rgb(44, 44, 53);
+  padding: 0;
+  width: calc(100% / 3);
+}
+
+.transactionsTable tr:nth-child(even) {
+  background-color: rgba(175, 175, 175, 0.692);
+}
+
+.transactionsTable td:first-child {
+  text-transform: capitalize;
+  text-align: left;
+  padding: 5px;
+  padding-left: 60px;
+}
